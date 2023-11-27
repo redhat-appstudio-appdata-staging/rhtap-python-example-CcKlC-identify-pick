@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: rhtap-python-example
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/rycole-tenant/rhtap-python-example/rhtap-python-example@sha256:5639c8f3fef0b18522db833ce6d626fb04dd10d93e081a200160a2f249d76e66
+      - image: quay.io/redhat-user-workloads-stage/rycole-tenant/rhtap-python-example/rhtap-python-example@sha256:ead9cabde2b386325aa5dca3e61dc3fc0db496c1d940dcbdc36e5759f5d96c73
         name: my-python
         ports:
         - containerPort: 8081
