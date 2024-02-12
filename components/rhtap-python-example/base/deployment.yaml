@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: rhtap-python-example
   name: rhtap-python-example
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
